@@ -1,7 +1,7 @@
 # Codeeval solutions
 My personal solutions for some challenges
 
-This repo is for backup propouses
+This repo is for backup propouse
 
 Codeeval doesent work anymore since 2015 :(
 
