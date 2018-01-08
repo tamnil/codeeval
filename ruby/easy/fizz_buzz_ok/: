@@ -1,0 +1,30 @@
+puts ARGV[0]
+teste = File.read(ARGV[0]).split("\n")
+# puts teste[1]
+# puts 'again'
+teste.each do |line|
+  vars = line.split(" ")
+  div_a = vars[0].to_i
+  div_b = vars[1].to_i
+  max = vars[2]
+  resp = ""
+  max.to_i.times do |x|
+    # verify if is divisible and return the result
+    if x % div_b == 0 
+      resp += "F"
+    end
+    if x % div_a == 0
+      resp += "B"
+    end
+    resp = x unless resp != ""
+
+  end
+  puts resp
+  puts " "
+
+end
+
+
+puts teste
+puts 'fim'
+
